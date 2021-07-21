@@ -1,0 +1,23 @@
+Unhandled exception in ThorImageOCT 5.2.1:
+
+System.AccessViolationException: Attempted to read or write protected memory. This is often an indication that other memory is corrupt.
+   at SpectralRadarCS.Probe.NativeMethods.createVolumePatternEx(IntPtr Probe, Double RangeX, Int32 SizeX, Double RangeY, Int32 SizeY, Double CenterX, Double CenterY, Double Angle, ScanPattern_ApodizationType ApoType, ScanPattern_AcquisitionOrder AcqOrder)
+   at SpectralRadarCS.Probe.VolumePattern(Double RangeX, Double RangeY, Int32 SizeX, Int32 SizeY, Double CenterX, Double CenterY, Double Angle, ScanPattern_ApodizationType ApoType, ScanPattern_AcquisitionOrder ApoOrder)
+   at SpectralRadarModels.ScanPatternModelBase.ScanPattern3D(Probe probe, IAveragingModel averaging)
+   at SpectralRadarModels.AcquisitionScanPatternModel.ScanPattern3D(Probe probe, IAveragingModel averaging)
+   at VolumeScanMode.VolumeScanAcquisitionModel.UpdateScanPattern(IAveragingModel averagingModel)
+   at VolumeScanMode.VolumeScanAcquisitionModel.ScanParametersChanged(Object sender, EventArgs e)
+   at SpectralRadarModels.AcquisitionScanPatternModel.LoadFromIniFile(IniFile parameterFile, String AcquisitionMode, Double defaultRangeX, Double defaultRangeY, Int32 defaultSizeX, Int32 defaultSizeY)
+   at SpectralRadarModels.AcquisitionDatasetModel`1.LoadDatasetParameters(IniFile parameterFile)
+   at VolumeScanMode.VolumeScanAcquisitionModel.LoadDatasetParameters(IniFile parameterFile)
+   at SpectralRadarModels.AcquisitionDatasetModel`1.Initialize()
+   at ThorImageOCT.MainWindow.InitDataModels()
+   at ThorImageOCT.MainWindow.InitBackground(Object sender, DoWorkEventArgs ea)
+   at System.ComponentModel.BackgroundWorker.OnDoWork(DoWorkEventArgs e)
+   at System.ComponentModel.BackgroundWorker.WorkerThreadStart(Object argument)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()

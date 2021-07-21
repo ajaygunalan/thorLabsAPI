@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['dataanalyzation',['DataAnalyzation',['../group___data.html#ga05391523b2767d70c64603760c600a77',1,'SpectralRadar.h']]],
+  ['dataexportformat',['DataExportFormat',['../group___import_export.html#ga3f47b3ca6dffd73604627fbfd201e02c',1,'SpectralRadar.h']]],
+  ['dataimportformat',['DataImportFormat',['../group___import_export.html#gab412f4353dbb93c6d45a9e71c38c71e3',1,'SpectralRadar.h']]],
+  ['dataobjecttype',['DataObjectType',['../group__filehandling.html#ga5d836015ba52c2a7b39c3af606f3d4e8',1,'SpectralRadar.h']]],
+  ['dataorientation',['DataOrientation',['../group___data.html#ga4dd763cacb77f4d853f3bee2bfd05a7c',1,'SpectralRadar.h']]],
+  ['datapropertyfloat',['DataPropertyFloat',['../group___data.html#gac91eac867049d46dc8dd71738fb870f0',1,'SpectralRadar.h']]],
+  ['datapropertyint',['DataPropertyInt',['../group___data.html#gade0772f51dfaeb08294638c37c873034',1,'SpectralRadar.h']]],
+  ['deviceflag',['DeviceFlag',['../group___hardware.html#ga6a9430d2ddd3107100c8f5b8774359eb',1,'SpectralRadar.h']]],
+  ['devicepropertyfloat',['DevicePropertyFloat',['../group___hardware.html#gad59d34d385824937bc0e432af36cf192',1,'SpectralRadar.h']]],
+  ['devicepropertyint',['DevicePropertyInt',['../group___hardware.html#ga093bfb9ac1f3ca7cb0a0475fe2109f61',1,'SpectralRadar.h']]],
+  ['devicepropertystring',['DevicePropertyString',['../group___hardware.html#gad7db6dc5f5814d750043c3748d2b5c7c',1,'SpectralRadar.h']]],
+  ['devicetriggertype',['DeviceTriggerType',['../group___hardware.html#gac3c7e5abd2a0512dd68804410f23c584',1,'SpectralRadar.h']]],
+  ['direction',['Direction',['../group___volume.html#ga224b9163917ac32fc95a60d8c1eec3aa',1,'SpectralRadar.h']]],
+  ['dispersioncorrectiontype',['DispersionCorrectionType',['../group___processing.html#ga902060649c90b17194252418762fb661',1,'SpectralRadar.h']]],
+  ['dopplerflag',['DopplerFlag',['../group___doppler.html#gab52fb11b40a6e5a3b5422ca598313708',1,'SpectralRadar.h']]],
+  ['dopplerpropertyfloat',['DopplerPropertyFloat',['../group___doppler.html#gab59327e74c93d9f0281f6df014a45a2e',1,'SpectralRadar.h']]],
+  ['dopplerpropertyint',['DopplerPropertyInt',['../group___doppler.html#gaed7678650cb327ea609f3cce6aeaf357',1,'SpectralRadar.h']]]
+];

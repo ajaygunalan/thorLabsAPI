@@ -1,0 +1,19 @@
+# Description file for objective LSM02, Version 1 (december 2017)
+
+# Name that will be displayed in the graphics user interface [LK20, ..., LSM02, ..., Custom] and the version [V1, V2,...]
+# Quotation marks used to prevent WPF from reformating.
+Objective_DisplayName = "LK2/LSM02(-BB) V1"
+
+# Max scan range (mm)
+RangeMaxX = 6         # mm
+RangeMaxY = 6         # mm
+
+# Focal length is not the working distance. Check https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=2910
+ObjectiveFocalLength = 18      # mm
+
+# The mount specification will be used to find the compatible probes. It should be something like "M25x0.75", or "M14x0.5". 
+# Empty spaces and uppercase will be ignored: " M14 x 0.5" is here the same as "m14x0.5"
+ObjectiveMount = M25x0.75
+
+# Optical path length, in millimeter (without counting the focal length, multiplied by the equivalent refractive index)
+ObjectiveOpticalPathLength = 20

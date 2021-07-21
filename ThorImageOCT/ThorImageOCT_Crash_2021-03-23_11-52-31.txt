@@ -1,0 +1,9 @@
+Unhandled exception in ThorImageOCT 5.2.1:
+
+SpectralRadarCS.SpectralRadarException: Could not get image data. 
+   at SpectralRadarCS.ErrorHandler.ThrowErrorException()
+   at SpectralRadarAcquisition.SingleShotAcquisition3D.AcquireAndProcess()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()

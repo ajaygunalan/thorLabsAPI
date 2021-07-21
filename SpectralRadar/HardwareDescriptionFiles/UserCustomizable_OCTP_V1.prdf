@@ -1,0 +1,70 @@
+# The mount specification will be used to find the compatible objectives. It should be something like "M25x0.75", or "M14x0.5". 
+# Empty spaces and uppercase will be ignored: " M14 x 0.5" is here the same as "m14x0.5"
+ObjectiveMount = M25x0.75
+
+# Display name, including article number (using quotation marks to hinder WPF reformating)
+# These names should be similar to those in the website, except that the many possibilities
+# (1300, 900, 1300NR,...) are not enumerated.
+Probe_DisplayName = "User-Customizable (OCTP)"
+
+# Shape of valid scan range: 0 is a rectangle, 1 is an ellipse
+MaxScanRangeShape = 0
+
+# The number of cycles used for apodization
+SizeOfApodization = 25
+# (x,y)-positions used for apodization in V (only x-position used for standard/scientific probe)
+ApoVoltage = 10, 0
+
+# Size of the speckle used in speckle reduction mode in mm
+SpeckleSize = 0
+
+# Time for the scanner to get from an apodization position to scan position and vice versa in sec
+FlybackTime = 0.002
+# The scan pattern is usually shifted by a number of A-scans equivalent to the rotation time
+RotationTime = 0
+# The scanning range is extended by a number of A-scans equivalent to the expansion time
+ExpansionTime = 0.00019
+
+## Settings for the video camera
+# Width in pixel
+VideoCameraSizeX = 648
+# Height in pixel
+VideoCameraSizeY = 484
+# Binning factor
+VideoCameraBinning = 4
+# Frames per second
+VideoCameraFPS = 25
+# Sets the center of the image to the middle
+VideoCameraAutoCenter = 1
+# Flips the image around the x-axis
+VideoCameraFlipX = 0
+# Flips the image around the y-axis
+VideoCameraFlipY = 1
+# 90 degree rotation is an OR of the following two:
+VideoCameraRotate = 1
+# Creates a black circle around the center of the image, used for handheld probes
+VideoCameraCircle = 0
+# Offset
+VideoCameraOffsetX = 0
+VideoCameraOffsetY = 0
+
+# The offset in x-direction in pixels
+CameraOffsetX = 242 
+# The offset in y-direction in pixels
+CameraOffsetY = 324
+
+# Optical path length, in millimeter (fiber length up to the scanner, multiplied by the refractive index)
+ProbeOpticalPathLength = 60
+
+# Name of the scanner [MEMS, Galvos]
+ScannerName = Galvos
+
+# Apo only X (boolean, 0 = no, 1 = yes (default))
+ApoOnlyX = 1
+
+# Choose the kind of scan pattern connection: Polynomial6 (default), Polynomial4, Exponential
+# Polynomial6: polynomial of order 6
+# Polynomial4: polynomial of order 4
+# Exponential: a smooth connection to the (scan) start, but a hard connection at the (scan) end. This was used in versions <5.2.
+# this entry is ignored for the MEMS probe right now
+ScanPatternConnection = Polynomial6

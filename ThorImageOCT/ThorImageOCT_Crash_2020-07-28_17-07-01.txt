@@ -1,0 +1,6 @@
+Unhandled exception in ThorImageOCT 5.2.1:
+
+SpectralRadarCS.SpectralRadarException: VolumeRenderer::render_frame: A numeric argument is out of range. The offending command is ignored and has no other side effect than to set the error flag. (GL_INVALID_VALUE)
+   at SpectralRadarCS.RendererErrorHandler.ThrowErrorException()
+   at SpectralRadarControls.Display3D.VolumeDisplay_OpenGLDraw(Object sender, EventArgs e)
+   at SpectralRadarControls.OpenGLControl.Render()

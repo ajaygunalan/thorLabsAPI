@@ -1,0 +1,13 @@
+Unhandled exception in ThorImageOCT 5.2.1:
+
+SpectralRadarCS.SpectralRadarException: Sizes need to be larger than 0. 
+   at SpectralRadarCS.ErrorHandler.ThrowErrorException()
+   at SpectralRadarCS.Probe.VolumePattern(Double RangeX, Double RangeY, Int32 SizeX, Int32 SizeY, Double CenterX, Double CenterY, Double Angle, ScanPattern_ApodizationType ApoType, ScanPattern_AcquisitionOrder ApoOrder)
+   at SpectralRadarModels.ScanPatternModelBase.ScanPattern3D(Probe probe, IAveragingModel averaging)
+   at SpectralRadarModels.AcquisitionScanPatternModel.ScanPattern3D(Probe probe, IAveragingModel averaging)
+   at VolumeScanMode.VolumeScanAcquisitionModel.UpdateScanPattern(IAveragingModel averagingModel)
+   at SpectralRadarAcquisition.SingleShotAcquisition3D.AcquireAndProcess()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()

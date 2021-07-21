@@ -1,0 +1,11 @@
+Unhandled exception in ThorImageOCT 5.2.1:
+
+System.AccessViolationException: Attempted to read or write protected memory. This is often an indication that other memory is corrupt.
+   at SpectralRadarCS.ImageField.NativeMethods.correctImageField(IntPtr ImageFieldHandle, IntPtr ScanPatternHandle, IntPtr Data)
+   at SpectralRadarCS.ImageField.Correct(ScanPattern ScanPattern, RealData Data)
+   at BScanMode.BScanAcquisitionModel.<.ctor>b__0_0(AcquisitionBase Acquisition, IList`1 Raw, Int32 i)
+   at SpectralRadarAcquisition.ContinuousAcquisition2D.AcquireAndProcess()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()

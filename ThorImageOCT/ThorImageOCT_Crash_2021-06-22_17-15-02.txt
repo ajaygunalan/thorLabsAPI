@@ -1,0 +1,12 @@
+Unhandled exception in ThorImageOCT 5.2.1:
+
+SpectralRadarCS.SpectralRadarException: Invalid DataHandle specified.
+   at SpectralRadarCS.ErrorHandler.ThrowErrorException()
+   at SpectralRadarCS.RealData.get_Ptr()
+   at SpectralRadarControls.OxyHelper.setOxyContent(LineSeries series, RealData data, Double scale, Int32 j)
+   at SpectralRadarControls.OxyHelper.setOxyContent(ElementCollection`1 series, RealData data, Double scale, String[] names)
+   at SpectralRadarControls.Display1D.<>c__DisplayClass99_0.<UpdateDisplay>b__0(Object e)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()

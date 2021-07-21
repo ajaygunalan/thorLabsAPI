@@ -1,0 +1,57 @@
+var group___coloring =
+[
+    [ "ColoringHandle", "group___coloring.html#ga15222b7216d5cb44c1aef2b2af59d8f6", null ],
+    [ "ColorEnhancement", "group___coloring.html#gaecef4d8464a4b52e7b12082483d90c70", [
+      [ "ColorEnhancement_None", "_spectral_radar_8h.html#gaecef4d8464a4b52e7b12082483d90c70aa8fb1299580d92b014e2b1ceeee378b7", null ],
+      [ "ColorEnhancement_Sine", "_spectral_radar_8h.html#gaecef4d8464a4b52e7b12082483d90c70a568fb0ec29fdb4bbed421a51c2398335", null ],
+      [ "ColorEnhancement_Parable", "_spectral_radar_8h.html#gaecef4d8464a4b52e7b12082483d90c70a4cc03f511815a7373808d8f11285a353", null ],
+      [ "ColorEnhancement_Cubic", "_spectral_radar_8h.html#gaecef4d8464a4b52e7b12082483d90c70a63421c5318d94559a230a197cda89f00", null ],
+      [ "ColorEnhancement_Sqrt", "_spectral_radar_8h.html#gaecef4d8464a4b52e7b12082483d90c70a2825dfb060d04734d47356c99065cc10", null ]
+    ] ],
+    [ "ColoringByteOrder", "group___coloring.html#gac87ff492cfe2def87bdd3224596d46bc", [
+      [ "Coloring_RGBA", "_spectral_radar_8h.html#gac87ff492cfe2def87bdd3224596d46bcacdd1a3a7c0b61e0281f264a11e8f6d8c", null ],
+      [ "Coloring_BGRA", "_spectral_radar_8h.html#gac87ff492cfe2def87bdd3224596d46bca91f45a22622e34106038b4b6820e8476", null ],
+      [ "Coloring_ARGB", "_spectral_radar_8h.html#gac87ff492cfe2def87bdd3224596d46bca95c0c7cd093ca69df342a3a22a635801", null ]
+    ] ],
+    [ "ColorScheme", "group___coloring.html#ga63ab7f3e964bbfd5c64e88e2861f4f41", [
+      [ "ColorScheme_BlackAndWhite", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41a463e493d471234e3e9e08e0289254f82", null ],
+      [ "ColorScheme_Inverted", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41a68f134dd9c9c8cf528c70b878ea10f14", null ],
+      [ "ColorScheme_Color", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41ac69d7b2a144844385b1b8b54c7db891b", null ],
+      [ "ColorScheme_BlackAndOrange", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41ad6924ef046d11b2c67fa19ef35e02c5e", null ],
+      [ "ColorScheme_BlackAndRed", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41a5c2944a6787c52091756dfb1dae287c5", null ],
+      [ "ColorScheme_BlackRedAndYellow", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41ab0330158a30549dcd435cb386f36b97b", null ],
+      [ "ColorScheme_DopplerPhase", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41a7127bfc39970799082201d0ac07c4b41", null ],
+      [ "ColorScheme_BlueAndBlack", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41a5b4ee848978fc57eb9e9d209f21c8a1e", null ],
+      [ "ColorScheme_PolarizationRetardation", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41a945362cd1f9c6a90a1d30f71581ebeba", null ],
+      [ "ColorScheme_GreenBlueAndBlack", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41a22d8c54561dc78b4da9dcaf4d3c61aaa", null ],
+      [ "ColorScheme_BlackAndRedYellow", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41a2309dcc00122e4acb6d2e923737f7b33", null ],
+      [ "ColorScheme_TransparentAndWhite", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41a75e134282667366d840b79d587315330", null ],
+      [ "ColorScheme_GreenBlueWhiteRedYellow", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41a41968b3c21ab9e20e680f002e5e13590", null ],
+      [ "ColorScheme_BlueGreenBlackYellowRed", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41ab7a45bc1deb67d481b04e370b0639222", null ],
+      [ "ColorScheme_RedGreenBlue", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41a8e6d786c4dde03f564148d8088c5d982", null ],
+      [ "ColorScheme_GreenBlueRed", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41a4a562bb0a715a2f7909cc7df17732bdc", null ],
+      [ "ColorScheme_BlueRedGreen", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41a7fa3bf418bedaea89c29efdfb606b2cf", null ],
+      [ "ColorScheme_GreenBlueRedGreen", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41a38906706dea218b6232326399297629c", null ],
+      [ "ColorScheme_BlueRedGreenBlue", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41a9b534821d781abae3b958bf8eff8027e", null ],
+      [ "ColorScheme_Inverse_RedGreenBlue", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41a81123e86c2b46ea7e0afd62bce6ff4e2", null ],
+      [ "ColorScheme_Inverse_GreenBlueRed", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41afe457c5203e5e09ddf7c8b09efdd00d2", null ],
+      [ "ColorScheme_Inverse_BlueRedGreen", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41a06292c3901ae3e24ea89b2cd07f98229", null ],
+      [ "ColorScheme_Inverse_GreenBlueRedGreen", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41ac4fa916bb3b57c86b8bee0932b32be6a", null ],
+      [ "ColorScheme_Inverse_BlueRedGreenBlue", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41a5986907f68131b91aa300d7f8c078124", null ],
+      [ "ColorScheme_RedYellowGreenBlueRed", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41a4320e5b06fd5c362e6b8e5fdf4e653c3", null ],
+      [ "ColorScheme_RedGreenBlueRed", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41aa0d84a9e1aad1bd1b7023f8fdaed223c", null ],
+      [ "ColorScheme_Inverse_RedGreenBlueRed", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41a88398b2d9d8fe5a31c7d811981f3d0f2", null ],
+      [ "ColorScheme_RedYellowBlue", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41a21a2ad13dd5f53bf5acbe4d5e36ec081", null ],
+      [ "ColorScheme_Inverse_RedYellowBlue", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41a5e0270f7a5195d4676cdb0c82aacb087", null ],
+      [ "ColorScheme_DEM_Normal", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41a2ad8a6afc2fd33a0feb2274dec076a0c", null ],
+      [ "ColorScheme_DEM_Blind", "_spectral_radar_8h.html#ga63ab7f3e964bbfd5c64e88e2861f4f41a4b692b220544087b47a5fd5a8217a0e1", null ]
+    ] ],
+    [ "clearColoring", "group___coloring.html#ga7d6aec00d4aeb1c46df65aed57779ba4", null ],
+    [ "colorizeData", "group___coloring.html#ga144d201724c7f1f1dc4ab850b8d57038", null ],
+    [ "colorizeDopplerData", "group___coloring.html#gad8db6f87dfb8a9acd93b913c49103824", null ],
+    [ "colorizeDopplerDataEx", "group___coloring.html#ga1a5b60b87606a5c481777d3fd2163dfe", null ],
+    [ "createColoring32Bit", "group___coloring.html#ga16edba906ed5f48020d76979c006a6af", null ],
+    [ "createCustomColoring32Bit", "group___coloring.html#ga7c46a5db23515167a890669cc167272f", null ],
+    [ "setColoringBoundaries", "group___coloring.html#gaf68c126d52b5e41fdaded9f832345fb2", null ],
+    [ "setColoringEnhancement", "group___coloring.html#ga6faaaad243d19f474a9f06dc06295a89", null ]
+];

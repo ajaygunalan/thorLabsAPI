@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['rawdata_5fbytesperelement',['RawData_BytesPerElement',['../_spectral_radar_8h.html#ga107bc69af20eee4547a63d089c23e60ca1a366d8a5fc0cf29d9b36bf82c79845c',1,'SpectralRadar.h']]],
+  ['rawdata_5flostframes',['RawData_LostFrames',['../_spectral_radar_8h.html#ga107bc69af20eee4547a63d089c23e60ca6f75c729bff7ea4297868d27d952c77f',1,'SpectralRadar.h']]],
+  ['rawdata_5fnumberofelements',['RawData_NumberOfElements',['../_spectral_radar_8h.html#ga107bc69af20eee4547a63d089c23e60ca20079e57400ab50b2ef5509756a92984',1,'SpectralRadar.h']]],
+  ['rawdata_5fsize1',['RawData_Size1',['../_spectral_radar_8h.html#ga107bc69af20eee4547a63d089c23e60ca8a57cd2cc0815a1360039b5ec6760438',1,'SpectralRadar.h']]],
+  ['rawdata_5fsize2',['RawData_Size2',['../_spectral_radar_8h.html#ga107bc69af20eee4547a63d089c23e60ca903fbb5d1c7602970f42ff48c3a6a687',1,'SpectralRadar.h']]],
+  ['rawdata_5fsize3',['RawData_Size3',['../_spectral_radar_8h.html#ga107bc69af20eee4547a63d089c23e60ca3c170483e85fff8eaf2d0e3804223a4c',1,'SpectralRadar.h']]],
+  ['rawdata_5fsizeinbytes',['RawData_SizeInBytes',['../_spectral_radar_8h.html#ga107bc69af20eee4547a63d089c23e60ca86ffed45900675bc356a8421cf484fa2',1,'SpectralRadar.h']]],
+  ['rawdataexport_5fraw',['RawDataExport_RAW',['../_spectral_radar_8h.html#ga50b905b9185a4a7e90334671078e7ed6a38f038998359755ddb0cbde19fea2261',1,'SpectralRadar.h']]],
+  ['rawdataexport_5fsrr',['RawDataExport_SRR',['../_spectral_radar_8h.html#ga50b905b9185a4a7e90334671078e7ed6ad2dc40ce10a121a47760c585356aa0b6',1,'SpectralRadar.h']]],
+  ['rawdataimport_5fsrr',['RawDataImport_SRR',['../_spectral_radar_8h.html#ga98d3ee1c316915c08ea86b47dc1e6206a7a4b6ca1f6ac6856290e24cfe48c1eda',1,'SpectralRadar.h']]],
+  ['refstage_5fmovelonger',['RefStage_MoveLonger',['../_spectral_radar_8h.html#gade74fa29b9c8f5ae5009afe2d05e4d2ea48ed1ac1e2ce7e2a2745ea8779c51f52',1,'SpectralRadar.h']]],
+  ['refstage_5fmovement_5fcontinue',['RefStage_Movement_Continue',['../_spectral_radar_8h.html#gaa02369d4a6c48c18c0a67c785723fea3af715f57c1465a1ab7e9b4bde3ea2818f',1,'SpectralRadar.h']]],
+  ['refstage_5fmovement_5fwait',['RefStage_Movement_Wait',['../_spectral_radar_8h.html#gaa02369d4a6c48c18c0a67c785723fea3a2d0e6087e05a1558b23ec24d4ef933fc',1,'SpectralRadar.h']]],
+  ['refstage_5fmoveshorter',['RefStage_MoveShorter',['../_spectral_radar_8h.html#gade74fa29b9c8f5ae5009afe2d05e4d2ead942e4b5a9bb61e2e2a7dfea060cdfb0',1,'SpectralRadar.h']]],
+  ['refstage_5fspeed_5ffast',['RefStage_Speed_Fast',['../_spectral_radar_8h.html#gac9ff264bf099b84e3aea689a1f46d343a573ceac1837567d03b09e7931b3730f8',1,'SpectralRadar.h']]],
+  ['refstage_5fspeed_5fslow',['RefStage_Speed_Slow',['../_spectral_radar_8h.html#gac9ff264bf099b84e3aea689a1f46d343ab094e5af0242b84192499468e3a0534e',1,'SpectralRadar.h']]],
+  ['refstage_5fspeed_5fveryfast',['RefStage_Speed_VeryFast',['../_spectral_radar_8h.html#gac9ff264bf099b84e3aea689a1f46d343ad775d411d14b30789a32ab1458cb1745',1,'SpectralRadar.h']]],
+  ['refstage_5fspeed_5fveryslow',['RefStage_Speed_VerySlow',['../_spectral_radar_8h.html#gac9ff264bf099b84e3aea689a1f46d343ab9dd1459de2015da23d44938640dab96',1,'SpectralRadar.h']]],
+  ['refstage_5fstatus_5fhoming',['RefStage_Status_Homing',['../_spectral_radar_8h.html#gaa4987ca6f7c2d6e37a0752d1362bbdfcadc7399a6a82e3d8916a08bc2c67e6f5d',1,'SpectralRadar.h']]],
+  ['refstage_5fstatus_5fidle',['RefStage_Status_Idle',['../_spectral_radar_8h.html#gaa4987ca6f7c2d6e37a0752d1362bbdfcad9ed180396bae369e6fe80adf2005247',1,'SpectralRadar.h']]],
+  ['refstage_5fstatus_5fmoving',['RefStage_Status_Moving',['../_spectral_radar_8h.html#gaa4987ca6f7c2d6e37a0752d1362bbdfcad48417357905f4d14aeaa94ca0545844',1,'SpectralRadar.h']]],
+  ['refstage_5fstatus_5fmovingto',['RefStage_Status_MovingTo',['../_spectral_radar_8h.html#gaa4987ca6f7c2d6e37a0752d1362bbdfcab9064b461683960191f7b7fc644f2f73',1,'SpectralRadar.h']]],
+  ['refstage_5fstatus_5fnotavailable',['RefStage_Status_NotAvailable',['../_spectral_radar_8h.html#gaa4987ca6f7c2d6e37a0752d1362bbdfca493a83d7e6a6b333aa1d63b712757cbd',1,'SpectralRadar.h']]],
+  ['refstage_5fstatus_5fstopping',['RefStage_Status_Stopping',['../_spectral_radar_8h.html#gaa4987ca6f7c2d6e37a0752d1362bbdfcac76aa550f08fd229628e4939de2bac34',1,'SpectralRadar.h']]],
+  ['refstage_5fstatus_5fundefined',['RefStage_Status_Undefined',['../_spectral_radar_8h.html#gaa4987ca6f7c2d6e37a0752d1362bbdfcaffffce44f33058484566a1b5052b54cb',1,'SpectralRadar.h']]]
+];
